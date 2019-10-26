@@ -1,0 +1,5 @@
+.managed-objects selection {
+    border: 1px solid gray;
+    padding: 10px;
+    display: inline-block;
+}

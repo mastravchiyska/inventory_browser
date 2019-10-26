@@ -1,0 +1,6 @@
+<h1>{{title}}</h1>
+<app-filter (type)="sendSearchByType($event)" (fragmentType)="sendSearchByType($event)"></app-filter>
+<app-list-body [searchData]="searchData"></app-list-body>
+
+<!-- <router-outlet></router-outlet> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">

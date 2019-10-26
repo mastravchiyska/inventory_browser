@@ -1,0 +1,13 @@
+<!-- <div *ngFor="let object of managedObjects">
+    <div class="managed-objects">
+        <textarea [disabled]="disableEdit">{{object}}</textarea>
+        <input type="button" value="&dArr;" (click)="editObject()">
+    </div>
+</div> -->
+<mat-card> 
+    <div class="managed-objects">
+        <!-- <ace-editor [(text)]="code" [theme]="'eclipse'" mode="json" style="height:400px;"></ace-editor> -->
+        <input type="button" value="&dArr;" (click)="editObject()">
+            <ngx-json-viewer class="managed-objects" [json]="objects"></ngx-json-viewer>
+    </div>
+</mat-card>
